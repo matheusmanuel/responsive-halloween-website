@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive halloween website - Matheus Manuel</title>
+</head>
+
+<body>
+    <img src="assets/img/shape-bg.png" alt="" class="shape__bg">
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="assets/img/logo-skull.png" alt="logo image">
+                Halloween
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#items" class="nav__link">Items</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#party" class="nav__link">Party</a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+                <img src="assets/img/nav-bat.png" alt="" class="nav__img">
+            </div>
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-4-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="shape__small"></div>
+            <div class="shape__big"></div>
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        <span>Halloween</span> Doçura ou travessura!!!
+                        <img src="assets/img/stars.png" alt="home image" class="home__title-img-1">
+                        <img src="assets/img/stars.png" alt="home image" class="home__title-img-2">
+                    </h1>
+
+                    <div class="home__description">
+                       Neste Halloween, divirta-se com doces ou travessuras
+                        com seus amigos e passar um terrível
+                        noite sob a lua cheia.
+                    </div>
+
+                    <a href="#" class="button">Explore Agora!!!</a>
+                </div>
+                <img src="assets/img/home-pumpkin.png" alt="home image" class="home__img">
+                <img src="assets/img/home-tree1.png" alt="home image" class="home__tree-1">
+                <img src="assets/img/home-tree2.png" alt="home image" class="home__tree-2">
+
+            </div>
+        </section>
+
+        <!--==================== CATEGORY ====================-->
+        <section class="category section">
+            <div class="shape__small"></div>
+            <h2 class="section__title">
+              Escolha sua <br> categoria assustadora
+            </h2>
+            <div class="category__container container grid">
+                <div class="category__card">
+                    <img src="assets/img/category-pumpkin.png" alt="category image" class="category__img">
+                    <h3 class="category__title">Abóboras</h3>
+                    <p class="category__description">Acenda abóboras de terror para assustar à noite</p>
+                    <img src="assets/img/stars.png" alt="category image" class="category__star">
+                </div>
+                <div class="category__card">
+                    <img src="assets/img/category-ghost.png" alt="category image" class="category__img">
+                    <h3 class="category__title">Fantasma</h3>
+                    <p class="category__description">Fantasmas assustadores para assustar nas casas mais assombradas</p>
+                    <img src="assets/img/stars.png" alt="category image" class="category__star">
+                </div>
+                <div class="category__card">
+                    <img src="assets/img/category-witch-hat.png" alt="category image" class="category__img">
+                    <h3 class="category__title">Chapéu de bruxa</h3>
+                    <p class="category__description">Os chapéus de bruxa mais elegantes que você pode usar e assustar</p>
+                    <img src="assets/img/stars.png" alt="category image" class="category__star">
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="shape__small"></div>
+            <div class="shape__big"></div>
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title">
+                       Sobre a Noite <br> Do Terror
+                    </h2>
+                    <p class="about__description">
+                        O Halloween é comemorado todo dia 31 de outubro
+                        à noite, caminhe pela cidade com seu
+                        amigos e gostosuras ou travessuras, aproveite isso
+                        celebração sob a lua cheia.
+                    </p>
+                    <a href="#" class="button">Saber mais!!!</a>
+                </div>
+                <img src="assets/img/about-scare.png" alt="image about" class="about__img">
+            </div>
+        </section>
+
+        <!--==================== ITEMS ====================-->
+        <section class="items section" id="items">
+            <h2 class="section__title">
+               Selecione seu <br>
+                item perdido
+            </h2>
+
+            <div class="items__container container grid">
+                <div class="shape__big"></div>
+                <article class="items__card">
+                    <img src="assets/img/item-apple.png" alt="image items" class="items__img">
+
+                    <h3 class="items__name">Maçã Doce</h3>
+                    <span class="items__price">$4.99</span>
+
+                    <button class="items__button">
+                        <i class="ri-heart-3-line"></i>
+                    </button>
+                </article>
+                <article class="items__card">
+                    <img src="assets/img/item-broom.png" alt="image items" class="items__img">
+
+                    <h3 class="items__name">vassoura de bruxa</h3>
+                    <span class="items__price">$12.99</span>
+
+                    <button class="items__button">
+                        <i class="ri-heart-3-line"></i>
+                    </button>
+                </article>
+                <article class="items__card">
+                    <img src="assets/img/item-pumpkin.png" alt="image items" class="items__img">
+
+                    <h3 class="items__name">Abóbora</h3>
+                    <span class="items__price">$7.99</span>
+
+                    <button class="items__button">
+                        <i class="ri-heart-3-line"></i>
+                    </button>
+                </article>
+                <article class="items__card">
+                    <img src="assets/img/item-spider.png" alt="image items" class="items__img">
+
+                    <h3 class="items__name">Aranha</h3>
+                    <span class="items__price">$9.99</span>
+
+                    <button class="items__button">
+                        <i class="ri-heart-3-line"></i>
+                    </button>
+                </article>
+                <article class="items__card">
+                    <img src="assets/img/item-witch-hat.png" alt="image items" class="items__img">
+
+                    <h3 class="items__name">Chapéu de bruxa</h3>
+                    <span class="items__price">$15.99</span>
+
+                    <button class="items__button">
+                        <i class="ri-heart-3-line"></i>
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== PARTY ====================-->
+        <section class="party section" id="party">
+            <div class="party__container container grid">
+                <div class="party__data">
+                    <h2 class="section__title">
+                       Dia das Bruxas <br>
+                        festa 31 de outubro
+                    </h2>
+                    <p class="party__description">
+                       Organize uma grande festa de Halloween e
+                        aproveite a noite mais assustadora de terror com todos
+                        seus amigos.
+                    </p>
+
+                    <a href="#" class="button">
+                       Comece a festa!!!
+                    </a>
+                </div>
+                <div class="party__images">
+                    <img src="assets/img/party-cauldron.png" alt="party image" class="party__img">
+
+                    <img src="assets/img/stars.png" alt="party star image" class="party__star-1">
+                    <img src="assets/img/stars.png" alt="party star image" class="party__star-2">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="shape__small"></div>
+        <div class="shape__big"></div>
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    <img src="assets/img/logo-skull.png" alt="Logo image">
+                    Halloween
+                </a>
+
+                <p class="footer__description">
+                    Aproveite o mais assustador <br>
+                    noite de sua vida.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">Sobre nós</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Sobre nós</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Característicos</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Notícias e blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer__title">Serviços</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Preços</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">descontos</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Envie um presente</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer__title">Empresa</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">blog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Comemorações</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Sobre nós</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer__title">Mídia social</h3>
+
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <img src="assets/img/footer-tree1.png" alt="footer image" class="footer__tree-1">
+            <img src="assets/img/footer-tree2.png" alt="footer image" class="footer__tree-2">
+        </div>
+        <span class="footer__copy">
+            &#169; Copyright Matheus. All rights reserved
+        </span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
